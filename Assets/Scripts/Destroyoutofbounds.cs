@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NewBehaviourScript : MonoBehaviour
+public class Destroyoutofbounds : MonoBehaviour
 {
     private float topBound = 30;
     private float lowerBound = -10;
@@ -13,7 +13,7 @@ public class NewBehaviourScript : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update() 
+    void Update()
     {
         if(transform.position.z < lowerBound) 
         {
