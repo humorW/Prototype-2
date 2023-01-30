@@ -13,11 +13,13 @@ public class NewBehaviourScript : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update() {
+    void Update() 
+    {
         if(transform.position.z < lowerBound) 
         {
             Destroy(gameObject);
         }   else if (transform.position.z < lowerBound){
             Destroy(gameObject);
-        } }
+        } 
+    }
 }
