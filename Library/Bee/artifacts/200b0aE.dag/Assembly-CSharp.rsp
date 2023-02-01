@@ -348,7 +348,7 @@
 "Assets/Scripts/Destroyoutofbounds.cs"
 "Assets/Scripts/MoveForward.cs"
 "Assets/Scripts/PlayerController.cs"
-"Assets/Scripts/SpawnManager.cs"
+"Assets/Scripts/Spawnmanager.cs"
 -langversion:9.0
 
 /deterministic

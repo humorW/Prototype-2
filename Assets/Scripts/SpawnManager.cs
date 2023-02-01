@@ -7,6 +7,7 @@ public class SpawnManager : MonoBehaviour
     public GameObject[] animalPrefabs;
     private float spawnRangeX = 20;
     private float spawnPosZ = 20;
+    
 
     // Start is called before the first frame update
     void Start()
@@ -17,12 +18,13 @@ public class SpawnManager : MonoBehaviour
     // Update is called once per frame
     void Update() 
     {
-        if (Input.GetKeyDown(KeyCode.S))
+        if (Input.GetkeyDown(KeyCode.S))
         {
-            //Randomly generat animal index and spawn position
-            int animalindex = Radom.Range(0, animalPrefabs.Length);
-            Vector3 spawnPos = new Vector3(Radom.Range(-spawnRangeX, spawnRangeX),0, spawnPosZ);
-            Instantiate(animalPrefabs[animalindex], spawnPos, animalPrefabs[animalindex].transform.rotation);
+            int animalIndex = Random.Range(0, animalPrefabs.Length)
+                Vector3 spwnPos = new Vector3(Random.Range(-spawnRangeX, spwnRageX), 0, spawnPosZ);
+
+            Instantiate(animalPerfabs[animalIndex],spawnPos, animalPerfabs[animalIndex].transform.rotation);
         }
     }
+    
 }
