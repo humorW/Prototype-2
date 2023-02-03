@@ -517,7 +517,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400046, guid: f8abbdd178867d2419ba9feb6ff2cba0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.6727977
+      value: -9.04
       objectReference: {fileID: 0}
     - target: {fileID: 400046, guid: f8abbdd178867d2419ba9feb6ff2cba0, type: 3}
       propertyPath: m_LocalPosition.y
@@ -980,7 +980,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa1cb3fe9e0734f16ab5aa1afc33fcc4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animalPrefabs: []
 --- !u!4 &1887670347
 Transform:
   m_ObjectHideFlags: 0
@@ -1046,7 +1045,7 @@ MonoBehaviour:
   horizontalInput: 6
   speed: 10
   xRange: 10
-  projectilePrefab: {fileID: 5797712518587715090, guid: e794f1a66bec648228bf678aaabfb766, type: 3}
+  projectilePrefab: {fileID: 1101594877}
 --- !u!1001 &7411547207170423282
 PrefabInstance:
   m_ObjectHideFlags: 0
